@@ -1,6 +1,6 @@
 import sys
-
 sys.path.append('..')
+sys.path.append('./lbp')
 
 import math
 import numpy as np
@@ -8,8 +8,9 @@ import cv2
 import os
 from skimage.feature import local_binary_pattern
 import pickle
-from reproduce.utils import analysis
 import datetime
+import os
+print (os.path.abspath('.'))
 
 from lib.processing_utils import get_file_list, FaceDection
 

@@ -1,12 +1,13 @@
 import math
 import numpy as np
 import cv2
-
+import sys
+sys.path.append('..')
+sys.path.append('./colorlbp')
 import os
 from skimage.feature import local_binary_pattern
 
 import pickle
-from reproduce.utils import analysis
 import shutil
 import datetime
 

@@ -1,6 +1,7 @@
 import sys
 
 sys.path.append('..')
+sys.path.append('/moire')
 import math
 import numpy as np
 import cv2

@@ -2,10 +2,11 @@ import math
 import numpy as np
 import cv2
 import os
-# import pandas as pd
+import sys
+sys.path.append('..')
+sys.path.append('./IDA')
 from scipy import stats
 import pickle
-from reproduce.utils import analysis
 import datetime
 
 from lib.processing_utils import get_file_list, FaceDection
